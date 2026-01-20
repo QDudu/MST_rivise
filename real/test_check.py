@@ -150,7 +150,6 @@ def main():
     plt.show()
     '''
 
-    # 调试数据输出 ---
     print("\n" + "="*40)
     print(f"DEBUG SUMMARY:")
     print(f"Target GT Mean:      {gt_data.mean():.6f}")
@@ -161,4 +160,5 @@ def main():
     print("="*40)
 
 if __name__ == "__main__":
+
     main()
